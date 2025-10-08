@@ -1,0 +1,73 @@
+.class-section {
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+    padding: 4rem 8%;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* ===== FIRST BLOCK ===== */
+  .parent1,
+  .parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .parent1 .baby1,
+  .parent2 .baby1 {
+    max-width: 500px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #0a0a23;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+  
+  .title span {
+    color: #ff9500;
+  }
+  
+  .desc {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  /* ===== IMAGES ===== */
+  .parent1 img,
+  .parent2 img {
+    max-width: 420px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* ===== SECOND BLOCK (REVERSED) ===== */
+  .parent2 {
+    flex-direction: row-reverse;
+  }
+  
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 768px) {
+    .parent1,
+    .parent2 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .baby1 {
+      max-width: 100%;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+    }
+  }
+  
