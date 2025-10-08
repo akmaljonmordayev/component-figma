@@ -1,7 +1,7 @@
 import React from "react";
 import img1 from "../../../../public/igm1.png";
 import img2 from "../../../../public/img2.png";
-import "./ClassSection.css";
+import "./Section5.css";
 
 const ClassSection = () => {
   return (
