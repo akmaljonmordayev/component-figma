@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 function Footer() {
-  return
-   <>
-<footer>
+
+  return (
+    <footer>
       <div className="contaier">
         <div className="footer-top">
           <img className="img" src="public/Group 111 (1).png" alt="" />
@@ -32,7 +32,7 @@ function Footer() {
         <p className="pde">© 2021 Class Technologies Inc. </p>
       </div>
     </footer>
-  </>;
+)
 }
 
 export default Footer;
