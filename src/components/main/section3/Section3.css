@@ -1,0 +1,48 @@
+h1{
+font-weight: 700;
+font-size: 36px;
+line-height: 180%;
+letter-spacing: 0%;
+color: #2F327D;
+text-align: center;
+span{
+    color: yellow;
+}
+}
+.salom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+p{
+font-weight: 400;
+font-size: 24px;
+line-height: 180%;
+letter-spacing: 0%;
+text-align: center;
+color: #696984;
+}
+h2{
+font-weight: 600;
+font-size: 40px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+span{
+    color: yellow;
+}
+}
+.salom p{
+    width: 730px;
+}
+.salom h4{
+font-weight: 400;
+font-size: 22px;
+line-height: 180%;
+letter-spacing: 0%;
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-thickness: 0%;
+color: #696984;
+}
