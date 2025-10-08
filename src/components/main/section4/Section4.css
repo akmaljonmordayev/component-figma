@@ -1,0 +1,60 @@
+.sect4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.sect4Right {
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+
+.sect4Right h2 {
+    width: 380px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #2F327D;
+}
+
+
+
+.sect4Right h2 span {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #F48C06;
+}
+
+.sect4Right p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 2%;
+    width: 596px;
+    color: #696984;
+    transition: 0.7s;
+}
+
+.sect4Right p:hover {
+    color: #F48C06;
+}
+
+.sect4Left img {
+    width: 550px;
+    transition: 0.7s;
+}
+
+.sect4Left img:hover {
+    transform: scale(1.1);
+}
