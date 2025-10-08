@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "./gradebook.png";
-import img2 from "./discussion.png";
+import img1 from "../../../../public/igm1.png";
+import img2 from "../../../../public/img2.png";
 import "./ClassSection.css";
 
 const ClassSection = () => {
